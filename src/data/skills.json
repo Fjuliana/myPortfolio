@@ -5,7 +5,7 @@
     },
     {
         "title": "JavaScript",
-        "imageSrc": "skills/JavaScript-icon.png"
+        "imageSrc": "skills/JavaScript-icon.webp"
     },
     {
         "title": "CSS",
@@ -16,11 +16,11 @@
         "imageSrc": "skills/php-icon.png"
     },
     {
-        "title": "Github",
-        "imageSrc": "skills/github-icon.png"
-    },
-    {
         "title": "Figma",
         "imageSrc": "skills/figma-icon.png"
+    },
+    {
+        "title": "Github",
+        "imageSrc": "skills/github-icon.png"
     }
 ]

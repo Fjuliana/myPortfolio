@@ -36,6 +36,23 @@
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
+    position: relative;
+}
+
+.menuItems a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-text);
+    transition: width 0.3s ease;
+}
+
+.menuItems a:hover::after {
+    width: 100%;
+    opacity: 0.7;
 }
 
 @media screen and (max-width: 830px) {

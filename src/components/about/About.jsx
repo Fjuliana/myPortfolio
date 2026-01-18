@@ -27,7 +27,7 @@ export const About = () => {
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
                         <div className={styles.aboutItemText}>
-                            <h3>UI Designer</h3>
+                            <h3>UI/UX Designer</h3>
                             <p>
                                 I have designed multiple landing pages and have created design
                                 systems as well.
