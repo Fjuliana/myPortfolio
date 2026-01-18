@@ -5,9 +5,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 61px;
+    padding-top: 40px;
     z-index: 2;
-    margin: 0 10%;
+    margin: 0 5%;
 }
 
 .title {
@@ -20,6 +20,8 @@
 
 .menuBtn {
     display: none;
+    width: 30px;
+    height: 30px;
 }
 
 .menu {
@@ -55,16 +57,33 @@
     opacity: 0.7;
 }
 
+@media screen and (max-width: 992px) {
+    .menuItems {
+        gap: 30px;
+    }
+    
+    .menuItems a {
+        font-size: 22px;
+    }
+}
+
 @media screen and (max-width: 830px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        padding-top: 20px;
+        margin: 0 3%;
+    }
+    
+    .title {
+        font-size: 26px;
+        margin-bottom: 10px;
     }
 
     .menu {
         position: absolute;
         right: 0;
-        margin-right: 10%;
+        margin-right: 5%;
         flex-direction: column;
         align-items: flex-end;
         gap: 11px;
@@ -74,22 +93,49 @@
     .menuBtn {
         display: block;
         cursor: pointer;
+        width: 26px;
+        height: 26px;
     }
 
     .menuItems {
         display: none;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         gap: 13px;
         border-radius: 10px;
         background: rgb(25, 55, 109);
         background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
-        padding: 24px 33px;
+        padding: 24px 20px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+        min-width: 150px;
     }
 
     .menuOpen {
         display: flex;
         z-index: 1;
+    }
+    
+    .menuItems a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        margin: 0 2%;
+    }
+    
+    .title {
+        font-size: 24px;
+    }
+    
+    .menuBtn {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .menuItems {
+        padding: 15px 15px;
+        right: 2%;
     }
 }

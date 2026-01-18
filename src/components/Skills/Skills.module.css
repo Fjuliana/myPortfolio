@@ -3,16 +3,65 @@
 .container {
     color: var(--color-text);
     margin-top: 79px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-bottom: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+}
+
+.topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    top: -128px;
+    left: -15vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    top: 246px;
+    right: -29vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
 }
 
 .title {
     color: var(--color-text);
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4%;
+    max-width: 200px;
+    height: 3px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
 
 .content {
@@ -23,10 +72,22 @@
 }
 
 .skills {
-    width: 45%;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 37px;
+    flex-wrap: nowrap;
+    gap: 60px;
+    overflow-x: auto;
+    justify-content: center;
+    padding: 10px;
+    scrollbar-width: thin;
+}
+
+@media screen and (max-width: 768px) {
+    .skills {
+        flex-wrap: wrap;
+        gap: 30px;
+        overflow-x: visible;
+    }
 }
 
 .skill {
@@ -37,7 +98,7 @@
 }
 
 .skillImageContainer {
-    background-color: var(--color-secondary);
+    background-color: rgba(140, 157, 254, 0.18);
     border-radius: 100%;
     display: flex;
     align-items: center;

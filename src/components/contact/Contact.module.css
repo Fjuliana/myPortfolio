@@ -2,26 +2,26 @@
 
 .container {
     color: var(--color-text);
-    margin-top: 120px;
+    margin-top: 60px;
     background-color: var(--color-secondary);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100vw;
-    padding: 58px 10%;
-    gap: 10px;
+    padding: 30px 0%;
+    gap: 215px;
 }
 
 .text h2 {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 }
 
 .text p {
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
 .links {
@@ -29,13 +29,13 @@
     flex-direction: column;
     align-items: flex-start;
     list-style: none;
-    gap: 26px;
+    gap: 15px;
 }
 
 .link {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
 }
 
 .link img {
@@ -47,7 +47,7 @@
 .link a {
     color: var(--color-text);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     letter-spacing: 1.5px;
 }

@@ -1,18 +1,20 @@
 [
     {
-        "title": "Project A",
+        "title": "OJTracker System",
         "imageSrc": "projects/project.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": [
-            "React",
-            "Express",
-            "Node"
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
         ],
         "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://github.com/Fjuliana/OJTracker_System.git"
     },
     {
-        "title": "Project B",
+        "title": "Trove System",
         "imageSrc": "projects/project.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": [
@@ -22,18 +24,15 @@
             "Sass"
         ],
         "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://github.com/Fjuliana/TroveSystem.git"
     },
     {
-        "title": "Project C",
+        "title": "Flood Monitoring and Early Warning System",
         "imageSrc": "projects/project.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": [
-            "React",
-            "Express",
-            "Node"
         ],
         "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://github.com/Fjuliana/FLOOD-MONITORING-AND-EARLY-WARNING-SYSTEM.git"
     }
 ]

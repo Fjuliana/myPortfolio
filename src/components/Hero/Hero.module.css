@@ -7,8 +7,8 @@
   justify-content: space-between;
   margin-top: 49px;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .content {
@@ -35,11 +35,47 @@
 }
 
 .description {
-  font-size: 24px;
+  font-size: 22px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
-  margin-right: 47px;
+  margin-right: 50px;
   color: #e1e0e0; 
+}
+
+.subtitle {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--color-text);
+}
+
+.animatedText {
+  display: inline-block;
+  color: #8da2f6;
+  position: relative;
+  font-weight: 600;
+}
+
+.animatedText::after {
+  content: "";
+  opacity: 1;
+  animation: blink-caret 0.7s infinite;
+}
+
+.cursor {
+  margin-left: 2px;
+  opacity: 1;
+  animation: blink-caret 0.7s infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
 }
 
 .contactBtn {
@@ -54,7 +90,7 @@
 }
 
 .heroImg {
-  width: 37%;
+  width: 35%;
   z-index: 1;
   border-radius: 50%;
   border: 3px solid white;
@@ -64,6 +100,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   object-fit: cover;
+  margin-bottom: 38px;
 }
 
 @keyframes floating {
