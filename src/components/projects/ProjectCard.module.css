@@ -6,7 +6,7 @@
     border-radius: 10px;
     background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
     box-shadow: 0 16px 14px 0 #04152d;
-    padding: 18px 24px;
+    padding: 24px 28px;
     max-width: 345px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
@@ -57,6 +57,7 @@
     line-height: 1.5;
     flex-grow: 1;
     font-family: var(--font-roboto), sans-serif;
+    text-align: justify;
 }
 
 .skills {
@@ -88,10 +89,13 @@
 }
 
 .links {
-    width: 100%;
+    width: calc(100% + 48px);
     margin-top: 26px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-left: -24px;
+    margin-right: -24px;
+    padding: 0 24px;
 }
 
 .link {
@@ -105,7 +109,8 @@
     transition: all 0.3s ease;
     font-family: var(--font-roboto), sans-serif;
     text-align: center;
-    min-width: 80px;
+    width: 100%;
+    min-width: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -141,7 +146,7 @@
 
 @media screen and (max-width: 480px) {
     .container {
-        padding: 15px 18px;
+        padding: 18px 22px;
         min-height: 420px;
     }
     

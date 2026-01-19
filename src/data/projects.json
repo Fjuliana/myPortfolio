@@ -2,7 +2,7 @@
     {
         "title": "OJTracker System",
         "imageSrc": "projects/Ojtracker.png",
-        "description": "This is a system for tracking and managing OJT trainees.",
+        "description": "This is a system for tracking and managing OJT trainees. It keeps tabs on who shows up for their training.",
         "skills": [
             "HTML",
             "CSS",
