@@ -1,8 +1,8 @@
 [
     {
         "title": "OJTracker System",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "imageSrc": "projects/Ojtracker.png",
+        "description": "This is a system for tracking and managing OJT trainees.",
         "skills": [
             "HTML",
             "CSS",
@@ -10,13 +10,12 @@
             "PHP",
             "MySQL"
         ],
-        "demo": "https://www.example.com",
         "source": "https://github.com/Fjuliana/OJTracker_System.git"
     },
     {
         "title": "Trove System",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "imageSrc": "projects/TroveSystem.png",
+        "description": "This is a tool to track and manage the funds of school clubs and organizations. Make it easy for students to pay their due or fees.",
         "skills": [
             "HTML",
             "CSS",
@@ -25,19 +24,17 @@
             "Node.js",
             "MySQL"
         ],
-        "demo": "https://www.example.com",
         "source": "https://github.com/Fjuliana/TroveSystem.git"
     },
     {
-        "title": "Flood Monitoring and Early Warning System",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "title": "Flood Monitoring and Early Warning System (with IoT)",
+        "imageSrc": "projects/FloodwarningSystem.png",
+        "description": "This is a system for monitoring and warning about floods using IoT technologies.",
         "skills": [
             "HTML",
             "CSS",
             "JavaScript"
         ],
-        "demo": "https://www.example.com",
         "source": "https://github.com/Fjuliana/FLOOD-MONITORING-AND-EARLY-WARNING-SYSTEM.git"
     }
 ]

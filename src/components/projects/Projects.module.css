@@ -36,8 +36,24 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     gap: 15px;
     width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .projects {
+        gap: 20px;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .projects {
+        gap: 15px;
+        padding: 0 10px;
+    }
 }
