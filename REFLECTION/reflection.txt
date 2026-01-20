@@ -1,0 +1,29 @@
+a. What technologies did you use and why?
+
+I used React, Vite and Tailwind CSS to build my portfolio because i wanted to try different technologies that can help to improve my skills 
+in designing a web and also it allows me to create reusable components and manage the UI efficiently. React makes the website more dynamic 
+and easier to maintain while Vite provides a very fast development environment. Also Tailwind CSS allows me to design 
+the website faster using utility classes, helped me create a clean, responsive design without writing a lot of custom CSS.
+
+
+b. Which parts of the portfolio were easiest for you?
+
+The easiest parts were building the layout and basic components, such as the navigation bar, sections, and content structure. 
+Using React components and Tailwind utility classes made it easier to organize and style the page quickly.
+
+c. Which parts were most challenging?
+
+The most challenging parts were making the design fully responsive and ensuring everything looked good on different screen sizes. 
+Managing layout spacing and responsiveness using Tailwind took some trial and error. Structuring components properly in React also 
+required careful planning.
+
+d. What technologies are you most interested in learning?
+
+I’m interested in learning more advanced React features, such as state management and performance optimization. I also want to learn 
+backend technologies like Node.js and databases so I can build full-stack applications. Additionally, I’m interested in learning more 
+about UI/UX design and animations.
+
+e. What kind of applications do you want to build in the future?
+
+In the future, I want to build interactive and full-stack web applications, such as dashboards, productivity tools, and real-world 
+systems that solve everyday problems. I also want to build applications that focus on good design, usability, and performance.
