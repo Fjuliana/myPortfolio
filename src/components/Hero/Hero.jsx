@@ -42,10 +42,10 @@ export const Hero = () => {
                 <h1 className={styles.title}>Hi, I'm Faith Juliana</h1>
                 <p className={styles.subtitle}>And I'm a <span className={styles.animatedText}>{displayText}<span className={styles.cursor}>|</span></span></p>
                 <p className={styles.description}>
-                    A UI/UX Designer and Front-end Developer dedicated to creating 
-                    intuitive and engaging digital experiences. I combine a deep 
-                    understanding of user behavior with technical expertise to 
-                    create interfaces that are both beautiful and functional. 
+                    A BS Information Technology student and an aspiring UI/UX designer
+                    and front-end developer passionate about creating intuitive and engaging
+                    digital experiences. I aim to design user-friendly interfaces by 
+                    combining creativity with front-end development skills. 
                     Browse my portfolio to see examples of my work!
                 </p>
                 <a href="mailto:faithjuliana44@email.com" className={styles.contactBtn}>
