@@ -1,3 +1,4 @@
+// ACTIVITY 1
 a. What technologies did you use and why?
 
 I used React, Vite and Tailwind CSS to build my portfolio because i wanted to try different technologies that can help to improve my skills 
@@ -27,3 +28,19 @@ e. What kind of applications do you want to build in the future?
 
 In the future, I want to build interactive and full-stack web applications, such as dashboards, productivity tools, and real-world 
 systems that solve everyday problems. I also want to build applications that focus on good design, usability, and performance.
+
+// MIDTERM PROJECT
+a. What are the concepts you’ve learned in our discussion in Full-stack development and React.js Framework?
+
+I've learned to build React applications using component-based architecture, breaking interfaces into reusable pieces like
+the sections in my portfolio. I also learned state management with hooks like useState and useEffect, which I used for the typing
+animation in my hero section. On the full-stack side, I've worked with PHP and Node.js for backend logic, MySQL for databases, 
+and connected them to frontend interfaces. I'm comfortable with props for passing data between components, JSX syntax, module 
+imports and exports, and using GitHub for version control.
+
+b. What are the concepts that you still want to learn further?
+
+I want to build on what I've already learned by diving deeper into state management and making my components even more reusable. 
+Since I've worked with basic React hooks, I'm eager to explore more advanced patterns that make code cleaner and easier to maintain. 
+I'd also like to expand my backend skills beyond PHP and Node.js by learning how to build stronger APIs and add secure user 
+authentication. Database design interests me too, especially comparing different options like MongoDB with MySQL. 
