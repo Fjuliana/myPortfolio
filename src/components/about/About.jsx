@@ -12,7 +12,7 @@ export const About = () => {
                     <p className={styles.aboutText}>
                                                 Hi! I'm a BS Information Technology student with skills as a UI/UX Designer
                                                  and Front-End Developer. I love turning ideas into easy-to-use digital tools, 
-                                                 and I was one of the project leads for OJTracker and Trove System – two solutions 
+                                                 and I was one of the project lead developers for OJTracker and Trove System – two solutions 
                                                  we built for our academic requirements.
                     </p>
                     <p className={styles.aboutTextAccomplishment}>
@@ -21,7 +21,7 @@ export const About = () => {
                                                 for students, while Trove System is built to track and manage the funds of school 
                                                 organizations. It also makes it convenient for students to pay their dues and fees 
                                                 for the clubs and organizations they're part of. Seeing these ideas grow from simple 
-                                                plans into fully working systems with my team has meant a lot to me.
+                                                plans into fully working systems with my team has been a very rewarding experience.
                     </p>
                 </div>
                 <div className={styles.aboutItems}>
@@ -32,8 +32,7 @@ export const About = () => {
                             accessible to everyone. For my goals, I want to get better at both design and development, 
                             especially for community-focused platforms. I plan to learn backend 
                             development to build complete solutions on my own. Eventually, I hope to work on projects 
-                            that help schools and local groups solve real problems, and maybe create tools for students 
-                            across different campuses. I'm excited to continue learning and growing in these areas 
+                            that help local groups solve real problems. I'm excited to continue learning and growing in these areas 
                             and contributing to the tech community.
                         </p>
                     </div>
