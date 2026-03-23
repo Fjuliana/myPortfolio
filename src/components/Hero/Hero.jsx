@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -7,7 +6,6 @@ export const Hero = () => {
     const [displayText, setDisplayText] = useState('');
     const [isDeleting, setIsDeleting] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [isSecondPhase, setIsSecondPhase] = useState(false);
     
     const texts = ['UI/UX Designer', 'Front-End Developer'];
     
@@ -16,12 +14,10 @@ export const Hero = () => {
         const typingSpeed = isDeleting ? 50 : 100;
         
         if (!isDeleting && displayText === currentText) {
-            // Finished typing, wait then start deleting after a delay
             setTimeout(() => {
                 setIsDeleting(true);
             }, 2000);
         } else if (isDeleting && displayText === '') {
-            // Finished deleting, move to next text
             setIsDeleting(false);
             setCurrentIndex((prevIndex) => (prevIndex + 1) % texts.length);
         } else {
